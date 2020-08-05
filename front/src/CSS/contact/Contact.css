@@ -1,0 +1,68 @@
+.contact__inner__form {
+  margin-top: 50px;
+}
+
+.contact {
+  display: flex;
+  margin-top: 150px;
+  justify-content: center;
+}
+.contact__inner {
+  max-width: 50%;
+  margin: 0 auto;
+}
+
+.contact__inner__title {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0 40px 0;
+  font-style: normal;
+  font-weight: 200;
+  letter-spacing: 0.8px;
+  color: #1d1d1d;
+  align-content: center;
+}
+.buttonStyle
+{
+  justify-content: center;
+}
+.ndrow
+{
+  background-color: #F3F3F3;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.thirddesgin{
+  justify-content: center !important
+}
+.btn{
+    margin: 13px 12px 12px 10px;
+    font-size: 28px;
+
+}
+.distance{
+  margin: 40px;
+}
+.contact__inner__text {
+  /* margin-left: 15px; */
+  /* font-weight: 300; */
+  font-style: normal;
+  font-size: 1.2em;
+  letter-spacing: 0.06em;
+  line-height: 1.7em;
+  text-transform: none;
+  color: var(--textGray);
+}
+@media only screen and (max-width: 800px) {
+  .contact__inner {
+    max-width: 80%;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .contact__inner {
+    max-width: 90%;
+  }
+}

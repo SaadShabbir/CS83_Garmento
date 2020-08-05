@@ -1,0 +1,114 @@
+.mainShop{
+  margin-top: 150px;
+}
+.main--container--product {
+  width: 100%;
+  margin-top: 80px;
+  text-align: center;
+  cursor: pointer;
+  height: 100% !important;
+}
+.main--container--product--name {
+  font-size: 1em;
+  padding-bottom: 15px;
+  color: black;
+}
+.main--container--product--price {
+  letter-spacing: 1.5px;
+  font-size: 14px;
+  color: var(--textGray);
+}
+#first--img {
+  width: 100%;
+}
+.main--container--product--information {
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+#hover--img {
+  width: 100%;
+}
+/* Left Categories */
+.shop_ul {
+  margin:5px 0;
+  background: #fbfbfb;
+    padding-left: 2px;
+}
+.shop_ul_li a {
+  font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    text-decoration: none;
+    color: rgba(29, 29, 29, 0.7);
+}
+.shop_ul_li .subMenu {
+  padding-left: 10px;
+  background: #f7f7f7;
+}
+.shop_ul_li .subMenu  .sub_submenu {
+  padding-left: 10px;
+  background: #e8e8e8;
+}
+
+
+
+/* main container */
+
+.main--container {
+  margin: 40px auto;
+  margin-top: 150px;
+  width: 85%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+/* hide and show classes */
+
+.display--none {
+  display: none;
+}
+
+.main--container--product:hover #first--img {
+  display: none;
+}
+.main--container--product:hover #hover--img {
+  display: block;
+}
+@media only screen and (max-width: 450px) {
+  .main--container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+.search {
+  margin-top: 100px !important;
+}
+
+.list-group-horizontal .list-group-item {
+  display: inline-block;
+}
+.list-group-horizontal .list-group-item {
+  margin-bottom: 0;
+  margin-left: -4px;
+  margin-right: 0;
+}
+.list-group-horizontal .list-group-item:first-child {
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 4px;
+}
+.list-group-horizontal .list-group-item:last-child {
+  border-top-right-radius: 4px;
+  border-bottom-left-radius: 0;
+}
+
+.list-group {
+  margin-left: 350px !important;
+  margin-top: -100px !important;
+}
+.list-group-item {
+  text-decoration: none !important;
+}

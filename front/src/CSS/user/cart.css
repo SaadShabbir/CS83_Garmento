@@ -1,0 +1,88 @@
+.cart-container {
+  margin-top: calc(var(--headerHeight) + 50px);
+}
+
+.list {
+  position: relative;
+  width: 100%;
+  height: 350px;
+}
+.list--titels {
+  position: relative;
+  margin: 0 auto;
+  width: 1000px;
+  height: 30px;
+}
+.list--titels p {
+  display: inline-block;
+  position: absolute;
+}
+.list--titels--item {
+  left: 3px;
+}
+.list--titels--price {
+  right: 3px;
+}
+.list--titels--qty {
+  right: 250px;
+}
+/* products */
+.list--product {
+  margin: 0 auto;
+  width: 1000px;
+  position: relative;
+  height: 120px;
+}
+.list-product--img {
+  height: 85px;
+  width: 100px;
+  position: absolute;
+  left: 70px;
+  top: 25px;
+}
+.list-product--remove {
+  position: absolute;
+  left: 3px;
+  top: 50px;
+}
+.list-product--img--title {
+  position: absolute;
+  left: 190px;
+  top: 45px;
+  font-size: 22px;
+}
+.list--product--input {
+  width: 60px;
+  height: 30px;
+  position: absolute;
+  right: 200px;
+  top: 45px;
+}
+.list--product--price {
+  position: absolute;
+  right: 10px;
+  top: 45px;
+}
+.list--product--sum {
+  position: absolute;
+  right: 1px;
+  top: 55px;
+}
+.subtotal {
+  position: absolute;
+  right: 250px;
+}
+/* //checkout */
+.button--checkout {
+  background-color: white;
+  
+  padding: 15px 30px;
+  font-size: 16px;
+  font-weight: 200;
+  border: 1.5px solid black;
+  cursor: pointer;
+}
+.button--checkout:hover {
+  color: white;
+  background-color: black;
+}

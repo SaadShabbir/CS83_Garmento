@@ -1,0 +1,26 @@
+[
+    {
+      "id": 1,
+      "title": "Denim ",
+      "desc": "COLOR\t\nBlack, Blue, Pink, Red, White\n\nSIZE\t\nExtra Large, Large, Medium, Small, XXL",
+      "price": "1299",
+      "images": "../images/denim jacket-1.jpg,../images/denim jacket-2.jpg,../images/denim jacket-3.jpg,../images/denim jacket-4.jpg,../images/denim jacket-5.jpg",
+      "stock": "10000",
+      "timesBought": "5",
+      "nutritionFacts": "COLOR\t\nBlack, Blue, Pink, Red, White\n\nSIZE\t\nExtra Large, Large, Medium, Small, XXL",
+      "reviwes": [
+        {
+          "stars": "1",
+          "text": "Praesent laoreet ornare ligula, ac accumsan turpis sagittis at. Integer auctor egestas eleifend. Etiam luctus mattis justo, vitae fermentum libero euismod lacinia. Proin at consequat risus. Praesent sollicitudin vestibulum felis, ut sodales enim.",
+          "author": "John Doe"
+        },
+        {
+          "stars": "4",
+          "text": "Praesent laoreet ornare ligula, ac accumsan turpis sagittis at. Integer auctor egestas eleifend. Etiam luctus mattis justo, vitae fermentum libero euismod lacinia. Proin at consequat risus. Praesent sollicitudin vestibulum felis, ut sodales enim.",
+          "author": "John Doe"
+        }
+      ],
+      "avrStars": "2.5",
+      "enabled": true
+    }
+  ]

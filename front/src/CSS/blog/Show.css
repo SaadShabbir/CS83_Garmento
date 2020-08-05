@@ -1,0 +1,140 @@
+/* .article {
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
+}
+
+.article__inner {
+  max-width: 1600px;
+  margin-top: 50px auto;
+}
+
+.article__meta,
+.article__title,
+.article__image {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.article__meta {
+  margin-bottom: 60px;
+  text-align: center;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 10px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #1d1d1d;
+}
+
+.article__title {
+  font-weight: 300;
+  font-style: normal;
+  font-size: 60px;
+  letter-spacing: 0em;
+  line-height: 1.5em;
+  text-transform: none;
+  color: #1d1d1d;
+}
+
+.article__text {
+  width: 50%;
+  margin: 0 auto;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 18px;
+  letter-spacing: 0.06em;
+  line-height: 1.8em;
+  text-transform: none;
+  color: rgba(29, 29, 29, 0.7);
+  margin-bottom: 50px;
+}
+
+.article__image img {
+  max-width: 1500px;
+  height: auto;
+} */
+
+.article {
+  display: flex;
+  justify-content: center;
+  margin-top: calc(var(--headerHeight) + 50px);
+}
+
+.article__inner {
+  max-width: 1600px;
+  margin-top: 50px auto;
+}
+
+.article__meta,
+.article__title,
+.article__image {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.article__meta {
+  margin-bottom: 60px;
+  text-align: center;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 10px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #1d1d1d;
+}
+
+.article__title {
+  font-weight: 300;
+  font-style: normal;
+  font-size: 60px;
+  letter-spacing: 0em;
+  line-height: 1.5em;
+  text-transform: none;
+  color: #1d1d1d;
+}
+
+.article__text {
+  width: 50%;
+  margin: 0 auto;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 18px;
+  letter-spacing: 0.06em;
+  line-height: 1.8em;
+  text-transform: none;
+  color: rgba(29, 29, 29, 0.7);
+  margin-bottom: 50px;
+}
+
+.article__image img {
+  width: 100%;
+  height: auto;
+}
+
+@media only screen and (max-width: 800px) {
+  .article__title {
+    font-size: 45px;
+  }
+  .article__text {
+    width: 70%;
+  }
+  .article__image img {
+    width: 100%;
+    /* margin-left: -50px; */
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .article__title {
+    font-size: 30px;
+  }
+  .article__text {
+    width: 80%;
+  }
+  .article__image img {
+    width: 100%;
+    height: auto;
+    /* margin-left: -25%; */
+  }
+}

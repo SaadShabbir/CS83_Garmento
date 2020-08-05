@@ -1,0 +1,425 @@
+.home-about-wrapper {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background: #f3f3f3;
+  text-align: center;
+  line-height: 26px;
+}
+.home-about-wrapper p {
+  line-height: 26px;
+}
+.box-info {
+  max-width: 950px;
+  margin: 0 auto;
+  text-align: center;
+  color: #707070;
+}
+.white-bg-holder {
+  background-color: #fff;
+  padding: 60px 15px;
+}
+.how-it-work-title {
+  display: block;
+  font-size: 28px;
+  color: #d0529d;
+  margin-bottom: 40px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.work-title {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: bold;
+  color: #363636;
+  line-height: 26px;
+}
+.work-holder-box {
+  font-size: 15px;
+  color: #7e8890;
+  line-height: normal;
+}
+.work-holder-box p {
+  font-size: 15px;
+  line-height: 24px;
+  color: #414141;
+}
+.column {
+  padding: 80px 0 0;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-position: center 10px;
+  background-size: 60px;
+}
+.mouse-img {
+  background-image: url(./images/place_order.svg);
+}
+.kurta-img {
+  background-image: url(./images/dress_material.svg);
+}
+.machine-img {
+  background-image: url(./images/stitch_deliver_img.svg);
+}
+.pay-delivery-img {
+  background-image: url(./images/pay_on_delivery.svg);
+}
+.work-holder-box .row {
+  background-image: url(./images/pattren-img.png);
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-repeat: repeat-x;
+}
+.services-wrapper {
+  margin: 0 auto;
+  padding-bottom: 60px;
+  padding-top: 60px;
+  text-align: center;
+  background: #f9f9f9;
+  overflow: hidden;
+}
+.services-title {
+  display: block;
+  font-size: 28px;
+  color: #3f79bc;
+  margin-bottom: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+.sub_heading {
+  font-size: 18px;
+  margin-bottom: 6px;
+}
+.service-item:hover .service-image-outer {
+  -webkit-box-shadow: -1px 9px 8px -6px rgba(0, 0, 0, 0.53);
+  -moz-box-shadow: -1px 9px 8px -6px rgba(0, 0, 0, 0.53);
+  box-shadow: -1px 9px 8px -6px rgba(0, 0, 0, 0.53);
+}
+
+.why-us-inner {
+  font-family: 'Lato', sans-serif;
+}
+img.srvc-image {
+  width: 100%;
+  height: auto;
+}
+.why-us-inner .row {
+  margin-bottom: 15px;
+}
+.btn-service-book {
+  border-radius: 0px !important;
+  display: inline-block;
+  text-align: center;
+  padding: 12px 24px;
+  color: #fff !important;
+  background: #3f79bc;
+  text-transform: uppercase;
+}
+.btn-service-book:hover {
+  color: #fff;
+}
+.service-icon-bottom {
+  display: none;
+}
+.service-price {
+  display: none;
+  color: #3f79bc;
+  font-weight: bold;
+}
+.sub_heading {
+  font-size: 18px;
+  margin-bottom: 6px;
+}
+
+.contact-form-section {
+  padding-right: 115px;
+}
+.service-item:hover .service-image-outer {
+  margin-top: -30px;
+}
+.service-item:hover .service-icon-bottom {
+  display: block;
+}
+.service-item:hover .service-price {
+  display: block;
+}
+.banner-tag-line {
+  color: #fff;
+  margin-bottom: 45px;
+}
+.nav-tabs {
+  border-bottom: 0px;
+  text-align: center;
+  margin: 0 auto;
+}
+.nav-tabs > li {
+  float: none;
+  display: inline-block;
+}
+.nav-tabs > li > a {
+  border-radius: 0px !important;
+  display: inline-block;
+  text-align: center;
+  padding: 12px 24px;
+  color: #fff !important;
+  background: #3f79bc;
+  text-transform: capitalize;
+}
+
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+  background: #525558;
+}
+a:active {
+  text-decoration: underline;
+}
+.tab-content > .tab-pane {
+  display: none;
+}
+.tab-content > .active {
+  display: block;
+}
+img.srvc-image {
+  width: 100%;
+  height: auto;
+}
+.servic-bottom {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.servic-bottom span {
+  margin-bottom: 5px;
+}
+.services-wrapper {
+  margin: 0 auto;
+  padding-bottom: 60px;
+  padding-top: 60px;
+  text-align: center;
+  background: #f9f9f9;
+  overflow: hidden;
+}
+.buttonrow
+{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.service-item-inner {
+  text-align: center;
+  box-sizing: border-box;
+  padding: 20px 10px;
+  text-align: center;
+}
+.service-image-outer {
+  text-align: center;
+  background: #fff;
+  text-align: center;
+}
+.service-item:hover .service-image-outer {
+  -webkit-box-shadow: -1px 9px 8px -6px rgba(0, 0, 0, 0.53);
+  -moz-box-shadow: -1px 9px 8px -6px rgba(0, 0, 0, 0.53);
+  box-shadow: -1px 9px 8px -6px rgba(0, 0, 0, 0.53);
+}
+.btn-service-book {
+  border-radius: 0px !important;
+  display: inline-block;
+  text-align: center;
+  padding: 12px 24px;
+  color: #fff !important;
+  background: #3f79bc;
+  text-transform: uppercase;
+}
+.btn-service-book:hover {
+  color: #fff;
+}
+.service-icon-bottom {
+  display: none;
+}
+.service-price {
+  display: none;
+  color: #3f79bc;
+  font-weight: bold;
+}
+.service-item:hover .service-image-outer {
+  margin-top: -30px;
+}
+.service-item:hover .service-icon-bottom {
+  display: block;
+}
+.service-item:hover .service-price {
+  display: block;
+}
+.why-us-title {
+  display: block;
+  font-size: 28px;
+  color: #3f79bc;
+  margin-bottom: 40px;
+  text-align: center;
+  font-weight: bold;
+}
+.why-us-inner {
+  max-width: 950px;
+  margin: 0 auto;
+}
+.why-us-image img {
+  width: 100%;
+}
+.why-us-wrapper {
+  background: #f3f3f3;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+.why-us-inner {
+  font-family: 'Lato', sans-serif;
+}
+.why-us-inner .row {
+  margin-bottom: 15px;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .navbar-holder .navbar-collapse.collapse {
+    display: none !important;
+  }
+  .navbar-holder .navbar-collapse.collapse.in {
+    display: block !important;
+  }
+  .navbar-holder .navbar-header .collapse,
+  .navbar-holder .navbar-toggle {
+    display: block !important;
+  }
+  .navbar-holder .navbar-header {
+    float: none;
+  }
+  .navbar-holder .navbar-nav {
+    float: none !important;
+  }
+  .navbar-holder .navbar-nav > li {
+    float: none;
+  }
+  .navbar-holder .nav.navbar-nav {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .navbar-holder {
+    position: relative;
+  }
+  .banner-img {
+    display: block;
+    height: auto !important;
+    overflow: hidden;
+  }
+  .banner-holder {
+    display: block;
+    vertical-align: middle;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .main-nav-bar ul li a {
+    font-size: 14px;
+    padding: 8px 6px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .services-wrapper {
+    overflow: auto;
+  }
+
+  .contact-form-section {
+    padding-left: 0px;
+  }
+  .dropit-btn {
+    display: block !important;
+  }
+
+  .main-nav-bar {
+    display: none;
+  }
+  .main-nav-bar {
+    background: #fff none repeat scroll 0 0;
+    /*float: none;*/
+    margin-top: 0px !important;
+    /*left: 0;*/
+    position: relative;
+    text-align: center;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+  }
+  .main-nav-bar ul li a {
+    color: #525558 !important;
+  }
+  .main-nav-bar ul li {
+    border-bottom: 1px solid #ccc;
+    display: block !important;
+    margin-bottom: 5px;
+    margin-right: 0px !important;
+  }
+  .main-nav-bar ul li:last-child {
+    border: none;
+  }
+  .main-nav-bar ul li a {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .why-us-image img {
+    width: auto;
+  }
+  .service-item:hover .service-image-outer {
+    margin-top: 0px;
+  }
+
+  .contact-list li {
+    padding-left: 0px;
+  }
+  .icon_contact {
+    width: 16px;
+  }
+  .servic-bottom span {
+    display: block;
+  }
+  .service-icon-bottom {
+    display: block;
+  }
+  .service-price {
+    display: block;
+  }
+  .banner-content-heading {
+    line-height: 28px;
+    font-size: 20px;
+  }
+  .tailor-title {
+    font-size: 14px;
+  }
+  .why-us-text {
+    text-align: center !important;
+  }
+  .work-holder-box .row {
+    background: none;
+    background-image: none;
+  }
+  .contact-list {
+    margin-top: 50px;
+  }
+  .item-alter {
+    margin-bottom: 55px;
+  }
+  .why-us-image {
+    text-align: center;
+  }
+  .column {
+    margin-bottom: 40px;
+  }
+
+  .service-item {
+    margin-bottom: 30px;
+  }
+}
+.btn {
+  margin: 13px 12px 12px 10px;
+  font-size: 28px;
+}

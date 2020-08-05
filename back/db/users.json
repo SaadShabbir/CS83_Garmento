@@ -1,0 +1,66 @@
+[
+  {
+    "id": 0,
+    "name": "Admin Someone",
+    "username": "admin",
+    "email": "admin@admin.com",
+    "password": "b24e647e47d50777eb582c585b890dc0f5ccf69e54a13977ae3d6ebd368fe381",
+    "isAdmin": true
+  },
+  {
+    "id": 9,
+    "name": "Mian Afnan",
+    "username": "mian",
+    "email": "mian@gmail.com",
+    "password": "c5839e52e915f645bf02911a67e015926a2bb04ad6805cf343258e6a86c7137f",
+    "age": "22",
+    "birthday": "1997-08-22",
+    "phone": "03208419604",
+    "balance": "1000",
+    "broughtProducts": [],
+    "cart": {},
+    "isAdmin": true
+  },
+  {
+    "id": 10,
+    "name": "Mian Saad",
+    "username": "saad",
+    "email": "saadi@gmail.com",
+    "password": "c5839e52e915f645bf02911a67e015926a2bb04ad6805cf343258e6a86c7137f",
+    "age": "24",
+    "birthday": "1991-09-09",
+    "phone": "03014242356",
+    "type": "Buyer",
+    "balance": "0",
+    "boughtProducts": [
+      {
+        "id": "1",
+        "quantity": "2",
+        "title": "Product 1"
+      }
+    ],
+    "cart": [
+      {
+        "id": "3",
+        "quantity": "10"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Hamza Khalid",
+    "username": "hamza",
+    "email": "hamza.khalid@gmail.com",
+    "password": "f01e4a5086bba904bb77aceb6958abbacc34d1d4b3a9893c45b61c72e592a19f",
+    "age": "22",
+    "birthday": "1997-08-22",
+    "phone": "03208419604",
+    "type": "Buyer",
+    "balance": "0",
+    "broughtProducts": [],
+    "cart": {
+      "active": false,
+      "products": []
+    }
+  }
+]
